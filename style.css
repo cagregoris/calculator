@@ -1,7 +1,14 @@
 body{
   font-family: 'Open Sans', sans-serif;
-  background-color: #4aaee4;
-  background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+  background-color: #90ccf4;
+}
+
+#container{
+  width: 1000px;
+	height: 550px;
+	/* background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(bgImg.jpg); */
+  /* background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png"); */
+	margin: 20px auto;	
 }
 
 #calculator {
@@ -48,4 +55,45 @@ body{
   border-width: 0;
   font-weight: bold;
   font-size: 15px;
+}
+
+.number, .empty {
+  background-color: #eaedef;
+}
+
+.number, .operator {
+  cursor: pointer;
+}
+
+.operator:active, .number:active{
+  font-size: 13px;
+}
+
+.operator:focus, .number:focus, .empty:focus {
+  outline: 0;
+}
+
+button:nth-child(4) {
+  font-size: 20px;
+  background-color: #f78888;
+}
+
+button:nth-child(8){
+	font-size: 20px;
+	background-color: #f3d250;
+}
+
+button:nth-child(12){
+	font-size: 20px;
+	background-color: #50f3a1;
+}
+
+button:nth-child(16){
+	font-size: 20px;
+	background-color: #90ccf4;
+}
+
+button:nth-child(20){
+	font-size: 20px;
+	background-color: #5da2d5;
 }
