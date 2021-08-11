@@ -6,8 +6,6 @@ body{
 #container{
   width: 1000px;
 	height: 550px;
-	/* background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(bgImg.jpg); */
-  /* background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png"); */
 	margin: 20px auto;	
 }
 
@@ -44,6 +42,10 @@ body{
 
 #keyboard {
   height: 400px;
+}
+
+#clear, #backspace, .operator {
+  background-color: rgb(218, 218, 218);
 }
 
 .operator, .number, .empty {
